@@ -1,0 +1,43 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "examen lectura",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": [
+            "cancelar"
+          ]
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": [
+            "home"
+          ]
+        },
+        {
+          "name": "CapturaPalabraIntent",
+          "slots": [
+            {
+              "name": "palabra",
+              "type": "AMAZON.Color"
+            }
+          ],
+          "samples": [
+            "{palabra}"
+          ]
+        }
+      ],
+      "types": []
+    }
+  },
+  "version": "12"
+}
